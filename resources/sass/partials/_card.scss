@@ -14,11 +14,16 @@
         padding: 30px 35px;
         border: 1px solid black;
         border-radius: 10px;
+        width: 650px;
+        height: 130px;
 
         &:hover{
 
             color: white;
+            border-color: white;
             cursor: pointer;
+            transform: scale(1.2);
+            transition-duration: 1s;
 
         }
 
