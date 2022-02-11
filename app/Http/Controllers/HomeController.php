@@ -12,9 +12,13 @@ class HomeController extends Controller
 
         $movies = Movie::all();
 
-        dd($movies);
+        $data = [
 
-        return view('home', $movies);
+            'movies' => $movies
+
+        ];
+
+        return view('home', $data);
 
     }
 
